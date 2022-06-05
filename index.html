@@ -36,42 +36,130 @@
         }
 
 
+
+
+
+
+
+
         .prima_sezione{
             background-color: #1F2937;
             display: flex;
             padding: 50px;
 
         }
-        .prima_sezione div{
-            flex: 1;
-            
-        }
+ 
         .testo_bottone{
             display: flex;
             flex-direction: column;
+            flex: 1;
         }
 
         .immagine{
             display: flex;
             justify-content: center;
+            flex: 1;
+
         }
 
 
         .testo_1{
             font-size: 34px;
             color: wheat;
+            flex: 1;
             
         }
         .testo_2{
             font-size: 18px;
             color: rgb(161, 159, 159);
+            flex: 1;
         }
 
-        .bottone_1{
+        .bottone{
+            background-color: rgb(91, 195, 199);
+            width: 100px;
+            border-radius: 10%;        
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: default;
+        }
+
+        .bottone:hover{
+            background-color: rgb(144, 202, 204);
+        }
+
+
+
+
+
+
+
+
+
+        .contenitore_elementi{
+            display: flex;
+            justify-content: space-around;
             
         }
 
+        .info{
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .card{
+            display: flex;
+            flex-direction: column;
+            width: 100px;
+            justify-content: center;
+            flex: 1;
+        }
+
+        .card img{
+            width: 100px;
+            height: 100px;
+            border-radius: 20%;
+        }
        
+        .seconda_sezione{
+            padding: 0px 70px 50px 70px;
+        }
+
+
+
+        
+
+
+
+        
+        .terza_sezione
+        {
+            background-color: #3d5075;
+            padding: 60px 120px;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+
+        
+
+
+            .testo_3{
+                flex: 1;
+                
+            }
+
+        .autore{
+            display: flex;
+            justify-content: flex-end;
+            flex: 1;
+        }
+
+        
 
      
     </style>
@@ -93,9 +181,43 @@
         <div class="testo_bottone b">
             <div class="testo_1 b"> testo 1This website is awesome</div>
             <div class="testo_2 b"> testo 2this web has some substext goes here under the main title its simlar onf ad loro andj controaso</div>
-            <div class="bottone b"><input type="button" class="bottone_1" value="bottone_1"></div>
+            <div class="bottone b">Bottone 1</div>
         </div>
         <div class="immagine b"> <img src="foto.jpg" alt="" class="img"></div>
+
+    </div>
+
+
+    <div class="seconda_sezione b"> 
+        
+            <div class="info b">
+                <h2>Some random information</h2>
+            </div>
+
+            <div class="contenitore_elementi b">
+         
+                <div class="card b"><img src="foto.jpg" alt="">Descrizione sotto foto 2</div>
+                <div class="card b"><img src="foto.jpg" alt="">Descrizione sotto foto 2</div>
+                <div class="card b"><img src="foto.jpg" alt="">Descrizione sotto foto 2</div>
+                <div class="card b"><img src="foto.jpg" alt="">Descrizione sotto foto 2</div>
+                
+
+            </div>
+
+    </div>
+
+    <div class="terza_sezione b">
+
+        
+            <div class="testo_3 b">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quis id dolore ut excepturi doloribus, a earum inventore iure cupiditate, distinctio officiis ad minima iusto voluptatibus corporis commodi aperiam eos?
+            </div>
+            <div class="autore b">
+                 -thor creatore del cielo
+            </div>
+     
+
+
 
     </div>
 
